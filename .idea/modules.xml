@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/configserver/configserver.iml" filepath="$PROJECT_DIR$/configserver/configserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parentSpringcloud.iml" filepath="$PROJECT_DIR$/parentSpringcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productdataservice/productdataservice.iml" filepath="$PROJECT_DIR$/productdataservice/productdataservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productviewservicefeign/productviewservicefeign.iml" filepath="$PROJECT_DIR$/productviewservicefeign/productviewservicefeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productviewserviceribbon/productviewserviceribbon.iml" filepath="$PROJECT_DIR$/productviewserviceribbon/productviewserviceribbon.iml" />
+    </modules>
+  </component>
+</project>
