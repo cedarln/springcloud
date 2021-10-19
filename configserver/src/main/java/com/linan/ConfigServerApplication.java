@@ -17,7 +17,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @EnableDiscoveryClient
 public class ConfigServerApplication {
     public static void main( String[] args ){
-        System.out.println( "Hello ConfigServerApplication!" );
+        System.out.println( "Hello ConfigServerApplication!!!" );
         int port = 8030;
         if(!NetUtil.isUsableLocalPort(port)) {
             System.err.printf("port %d is occupied, cannot start it!", port);
