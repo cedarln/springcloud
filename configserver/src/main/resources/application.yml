@@ -3,7 +3,7 @@ spring:
     name: config-server
   cloud:
     config:
-      lable: master
+      label: master
       server:
         git:
           searchPaths: respo
