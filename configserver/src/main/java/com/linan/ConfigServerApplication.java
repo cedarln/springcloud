@@ -20,7 +20,7 @@ public class ConfigServerApplication {
         System.out.println( "Hello ConfigServerApplication!" );
         int port = 8030;
         if(!NetUtil.isUsableLocalPort(port)) {
-            System.err.printf("port %d is occupied, CANNOT start it.", port);
+            System.err.printf("port %d is occupied, cannot start it!", port);
             System.exit(1);
         }
         new SpringApplicationBuilder(ConfigServerApplication.class)
