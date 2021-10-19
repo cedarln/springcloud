@@ -12,8 +12,6 @@
     <artifactId>config-server</artifactId>
 
     <name>config-server</name>
-    <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>
 
     <dependencies>
         <dependency>
