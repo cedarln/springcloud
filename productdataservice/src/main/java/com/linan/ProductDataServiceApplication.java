@@ -29,7 +29,7 @@ public class ProductDataServiceApplication {
         int defaultPort = 8001;
         Future<Integer> future = ThreadUtil.execAsync(() ->{
                 int p = 0;
-                System.out.printf("please input port in 5 seconds or it'll use%d. 8001~8003 are recommended.%n", defaultPort);
+                System.out.printf("please input port in 5 seconds or it'll use %d. 8001~8003 are recommended.%n", defaultPort);
                 Scanner scanner = new Scanner(System.in);
                 while(true) {
                     String strPort = scanner.nextLine();
